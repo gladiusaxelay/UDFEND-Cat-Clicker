@@ -2,7 +2,7 @@
 
 * 
 
-For specifics, [repository](https://github.com/udacity/fend-project-memory-game).
+As part of the Udacity UDFEND, I must create cat clicker application using MVC.
 
 ## Getting Started
 
