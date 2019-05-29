@@ -1,7 +1,5 @@
 # UDFEND-Cat-Clicker
 
-* 
-
 As part of the Udacity UDFEND, I must create cat clicker application using MVC.
 
 ## Getting Started
@@ -15,3 +13,7 @@ As part of the Udacity UDFEND, I must create cat clicker application using MVC.
 ## Running the Site
 
 1. Open `index.html` in you Web Browser and have fun!.
+
+## Acknowledgements
+
+Inspired [from](https://github.com/udacity/ud989-cat-clicker-premium-vanilla) exercise.
