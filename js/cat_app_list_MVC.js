@@ -1,11 +1,12 @@
 /* eslint-disable no-undef */
 let clicks = [];
 
-let names = ["Cat 0", "Cat 1", "Cat 2"];
+let names = [];
 
 /* ======= Model ======= */
 
 let model = {
+    
     currentCat: null,
     cats: [{
             clickCount: 0,
@@ -95,9 +96,21 @@ let catListView = {
     },
 
     makeList: function () {
-        this.listHTML = names.map(function (name) {
+        
+
+        let namesArr = [];
+
+        for (let i = 0; i < model.cats.length; i++) {
+            namesArr.push(model.cats[i].name);
+        }
+        
+        this.listHTML = namesArr.map(function (name) {
             return `<li class = list id = '${name}'>${name}</li>`;
         })
+
+        // this.listHTML = Object.keys(model.cats).forEach(function (cat){
+        //     return `<li class = list id = '${cats.name[cat]}'>${cats.name[cat]}</li>`;
+        // })
 
         this.list.innerHTML = this.listHTML.join('');
 
@@ -115,7 +128,7 @@ let catListView = {
             list.addEventListener('click', function (e) {
                 let miauwName = e.target.id;
   
-                for (let i = 0; i < 1; i++) {
+                for (let i = 0; i < catListView.grabAlllistItems.length ; i++) {
                     switch (miauwName) {
                         case 'Cat ' + i:
                             catListView.insertCat.innerHTML = `
