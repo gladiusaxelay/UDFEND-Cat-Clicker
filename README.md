@@ -16,4 +16,4 @@ As part of the Udacity UDFEND, I must create cat clicker application using MVC.
 
 ## Acknowledgements
 
-Inspired [from](https://github.com/udacity/ud989-cat-clicker-premium-vanilla) exercise.
+Inspired from the [exercise](https://github.com/udacity/ud989-cat-clicker-premium-vanilla).
